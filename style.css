@@ -1,0 +1,155 @@
+/*  
+Theme Name: Ngarsapura
+Theme URI: http://virtuemagz.com
+Description: simple wordpress themes
+Version: 1.0
+Author: virtuemagz
+Author URI: http://virtuemagz.com
+Tags: simple wordpress themes, free
+*/
+
+@import "reset.css";
+@font-face {
+  font-family: 'Harabara';
+  src: local('Harabara'), url('fonts/Harabara.ttf') format('truetype');
+}
+body{background:#fff; font:10px verdana;text-align:center;color:#333;}
+
+/*layout*/
+#header{border-top:10px solid #333;height:75px;}
+#navigation{clear: both;}
+#mursid{float: left;width:580px;display: inline;padding-bottom:15px;margin-right:20px;overflow:hidden;}
+#sidebar{float: left;margin-left:20px;width: 320px;display: inline;}
+#footer{clear: both;padding:30px 0;border-bottom:10px solid #333;}
+
+/*header*/
+
+h1#logo{float:left;margin-top:15px;margin-bottom:10px;font-size:30px;color:#47281a;font-weight:normal;line-height:150%;}
+h1#logo a{color:#47281a;font:normal 40px 'Harabara'; }
+p.description{padding-top:5px;color:#333;font:bold 16px 'trebuchet MS'; font-style:italic;float:right;}
+#search{float:right;margin-top:-12px;width:350px;background:#87a9d3; padding:5px;display:inline;}
+input#s{width:280px;}
+
+#navigation{margin-top:10px;margin-bottom:20px;font:bold 15px arial;text-transform:lowercase;height:17px;padding:5px 0 5px 0;border-top:1px dashed #333;border-bottom:1px dashed #333;}
+#navigation a{color:#333; padding:3px 5px 3px 5px;}
+#navigation a:hover{color:#07AE42;text-decoration:none}
+#navigation a.active{font-weight:bold;color:#07AE42;}
+#navigation ul li{float:left;margin-right:10px;display:inline;}
+
+/*body*/
+.post-image{border:1px solid #876551;overflow:hidden;margin-bottom:20px;height:210px;}
+.post-image img{width:578px;}
+h2.postTitle{font-size:25px;color:#029235;font-weight:normal;}
+h2.postTitle a{color:#029235;line-height:110%;} h2.postTitle a:hover{text-decoration:none;color:#333;}
+.postmeta{padding:5px 0;}
+.postbody{margin-top:20px;font-size:12px;line-height:150%; color:#333;}
+	.postbody p{padding: 0 0 20px 0;margin-top:-5px;line-height:22px;}
+	.postbody a{font-weight:bold; color:#059731;}
+	.postbody blockquote{padding-bottom:7px;font:18px georgia;color:#333;background:#fff url(images/quote1.jpg) 20px 10px no-repeat; padding:15px 15px 0 75px;margin-bottom:20px; border-top:1px solid #333;border-bottom:1px solid #333;} 
+	.postbody ul{margin-bottom:20px;line-height:22px;}
+	.postbody ul li{background: url(images/xbullet.png) 0 7px no-repeat; padding-left:15px;line-height:22px;}
+	.postbody  ul li ol{padding-top:10px;padding-bottom:0;line-height:22px;}
+	.postbody  ul li ol li{background:none;line-height:22px;}
+	.postbody ol{list-style: decimal inside;margin-bottom:20px;}
+	.postbody h3,
+	.postbody h4,
+	.postbody h5,
+	.postbody h6{color:#333;background-color:transparent;}
+	.postbody h3{font-size:18px;}
+	.postbody h4{font-size:16px;}
+	.postbody h5{font-size:13px;}
+	.postbody h6{font-size:12px;}
+	.postbody a:hover {text-decoration:underline;}
+	.postbody ol.commentlist li a:hover{background:#f5e9c9;border-bottom:1px solid #edd69f;text-decoration:none;}
+	
+	.postbody dl{padding:10px;background:#f5e9c9;margin:0 0 20px;}
+	.postbody dt{font-weight:bold;}
+	.postbody dd{font-size:12px;margin-bottom:10px;}
+
+	.postbody code{font-family:"Courier New", Courier, mono, serif;background-color:#f5e9c9;}
+	.postbody img.aligncenter{padding:10px;background:#f5e9c9;display:block;margin:10px auto;}
+	
+#my-recent-posts{margin-top:20px;border-top:1px solid #87a9d3;padding:20px 0;}
+#my-recent-posts .navigation{margin-top:20px;}
+/* #recent-posts .sectitle, #recent-posts .subtitle{text-align:left;} */
+.bits{height:1%;margin-top:20px;}
+.post-thumb{float:left; width:195px; height:155px;background:url(images/post-thumb-bg.jpg) top left no-repeat; border:1px solid #876551; overflow:hidden; margin-right:15px; display: inline;}
+.bits h3{font-size:18px;color:#111;line-height:100%;font-weight:normal;}	
+.bits h3 a{color:#727C9f;}
+.excerpt{padding:10px 0;}
+.bits .postmeta{font-size:11px;}
+.postaction{margin-top:-15px;height:1%;margin-bottom:15px; padding-bottom:15px;border-bottom:1px dashed #333;}
+.comment-num a{padding-left:20px;background:url(images/comment-icon.png) left no-repeat;}
+
+/*sidebar*/
+
+.module{margin-bottom:20px;}
+.sectitle{background:transparent url(images/h2.gif) left no-repeat; padding:0 0 0 25px; font-size:18px;font-weight:normal;color:#111;text-transform:lowercase;margin-top:15px;/* text-align:right; */}
+.subtitle{/* text-align:right; */font-style:italic;}
+/* #categories{border-bottom:1px solid  #cdc0b7;} */
+#categories ul{height:1%;margin-top:10px;}
+#categories ul li{float:left;width:120px;padding:3px 0; border-top:0;border-bottom:1px solid  #cdc0b7;}
+
+.module ul,
+.postlist{margin-top:10px;}
+.module li,
+.postlist li{border-bottom:1px dashed #cdc0b7; padding:5px;line-height:25px;font:normal 11px verdana;}
+.postlist li small{font-size:11px;text-transform:uppercase;display:block;clear:both;}
+.module ul li ul{border-top:none;border-bottom:none;margin-top:2px;}
+.module ul li ul li{padding-left:15px;border-top:1px solid #cdc0b7;border-bottom:none;background: url(images/xbullet.png) 0 7px no-repeat;}
+.module table, .module table{width:100%;border-top:1px solid #cdc0b7;border-right:1px solid #cdc0b7;margin-bottom:10px;}
+.module table caption, .module table caption{padding:10px 0;font-weight:bold;color:#111;text-align:left;}
+.module table td, .module table th, .module table td, .module table th{padding:5px;border-bottom:1px solid #cdc0b7;border-left:1px solid #cdc0b7;}
+p.tagcloud{margin-top:10px;padding:10px 0;line-height:230%; border-top:1px solid  #cdc0b7;border-bottom:1px solid  #cdc0b7;}
+
+/*footer and FYI*/
+#about{clear:both;margin-top:30px;background:#3FAE49; color:#fff;}
+#about .alignleft{padding:15px;width:180px;background-color:#EDEDED;margin-right:15px;}
+#about .def{padding:15px;}
+#about .def img{float:left;padding:2px;border:1px solid #876551;margin-right:10px;}
+
+/*Comments*/
+#commentaries{clear:both;border-top:1px dashed #029235;padding:15px 0 0;height:1%;position:relative;min-height:400px;height:auto !important;height:400px;}
+#respond:after {content: "."; display: block; height: 0;  clear: both; visibility: hidden;}	
+#commentform #submit {margin: 0 0 5px auto;float: right;}
+.alt {margin: 0;padding: 10px;}
+.commentlist {padding: 0;text-align: justify;width:580px;font:normal 12px verdana;}
+.commentlist li {margin: 15px 0 10px;padding: 5px 5px 10px 10px;list-style: none;border:1px dashed #666;}
+.commentlist li ul li { margin-right: 5px;margin-left: 10px;background:#FCF9D9;}
+.commentlist p {margin: 10px 5px 10px 0;}
+.children { padding: 0; }
+#commentform p {margin: 5px 0;}
+.nocomments {text-align: center;margin: 0;padding: 0;}
+.commentmetadata {margin: 0;display: block;}
+#commentarea{position:absolute;top:10px;right:0;width:360px;background:#FBFBE2;display:inline; padding-bottom:10px;}
+#commentarea form{padding:20px;}
+textarea#comment{width:306px;padding:5px;}
+#commentform p{clear:both;padding:5px 0;}
+#commentform label{float:left;width:150px;color:#333;background-color:transparent;}
+#commentform input{float:right;}
+
+/*others*/
+
+.wrapper{margin:0 auto;text-align:left;width:960px;}
+.alignleft{float:left;display:inline;}
+.alignright{float:right;display:inline;}
+.aligncenter, div.aligncenter{display:block;margin:10px auto;}
+.navigation{clear:both;padding:10px 0;}
+.clearfix{clear:both;height:0px;font-size:0px;line-height:0px;overflow:hidden;}
+
+a{color:#cd5f19;text-decoration:none;}
+a:hover{color:#c30;text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6{}
+
+.wp-caption {border: 1px solid #ddd;text-align: center;background-color: #f3f3f3;padding-top: 4px;margin: 10px;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.wp-caption img {margin: 0;padding: 0;border: 0 none;}
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;padding: 5px 4px 5px;margin: 0;}
+
+.wrapper:after,
+.postaction:after,
+.comment-info:after,
+.module:after,
+.postbody:after,
+.bits:after,
+.navigation:after{content:".";display:block;height:0;clear:both;visibility:hidden}
